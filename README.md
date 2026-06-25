@@ -47,5 +47,15 @@ Për Web (Google Chrome ):
  npm run web
 
 4. Për Telefon (Expo Go - iOS/Android):
-     npx expo start --tunnel    
-     Skenoni QR kodin e gjeneruar
+     * **Opsioni 1: Përmes Rrjetit Lokal **
+     npx expo start
+     *Sigurohuni që telefoni dhe kompjuteri janë të lidhur në të njëjtin Wi-Fi (Network).*
+
+   Skenoni QR kodin e gjeneruar në terminal me kamerën e telefonit tuaj (iOS) ose përmes aplikacionit Expo Go (Android)
+ * **Opsioni 2: Përmes Tunelit (Nëse Opsioni 1 jep gabim ose bllokohet)**
+     npx expo start --tunnel
+   
+     *Përdoret nëse kompjuteri dhe telefoni nuk janë në të njëjtin rrjet Wi-Fi.*
+   Skenoni QR kodin e gjeneruar në terminal me kamerën e telefonit tuaj (iOS) ose përmes aplikacionit Expo Go (Android)
+
+ 
