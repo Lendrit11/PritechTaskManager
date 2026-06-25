@@ -30,21 +30,21 @@ Projekti ndjek parimin e **Clean Code** dhe është i organizuar në mënyrë mo
 
 ---
 
-## 🚀 Udhëzimet e Instalimit dhe Ekzekutimit (Setup)
+## Udhëzimet e Instalimit dhe Ekzekutimit (Setup)
 
 Për ta ekzekutuar projektin në kompjuterin tuaj, ndiqni këto hapa:
 
 1. Klononi repositorin:
    ```bash
-   git clone <LINKU_YT_I_GITHUB_KETU>
+   git clone https://github.com/Lendrit11/PritechTaskManager.git
    cd PritechTaskManager
 
 2. Instaloni varësitë (dependencies):
   npm install
 
-3. Ekzekutoni aplikacionin:
-  Për Web (Google Chrome):
-     npm run web 
+3. Ekzekutoni aplikacionin
+Për Web (Google Chrome ):
+ npm run web
 
 4. Për Telefon (Expo Go - iOS/Android):
      npx expo start --tunnel    
